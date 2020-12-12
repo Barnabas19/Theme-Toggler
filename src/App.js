@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+//FINAL FILE
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +24,20 @@ function App() {
   );
 }
 
+export default App;*/
+
+
+import Form from './Form';
+import Note from './Note';
+import './App.css';
+
+const App = ()=>{
+  return (
+    <div className="app">
+      <h1 className="heading">Express Yourself!</h1>
+      <Form />
+      <Note />
+    </div>
+  )
+}
 export default App;
